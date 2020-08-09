@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Allen",
+    "jobTitle": "Multimedia Web Integrator",
+    "age": 26,
+    "bossID": 2
+  },
+  {
+    "id": 2,
+    "name": "Noé",
+    "jobTitle": "Team Leader of Integration",
+    "age": 27,
+    "bossID": 4
+  },
+  {
+    "id": 3,
+    "name": "Daniel",
+    "jobTitle": "Multimedia Web Integrator",
+    "age": 29,
+    "bossID": 2
+  },
+  {
+    "id": 4,
+    "name": "Diane",
+    "jobTitle": "Director of Operations",
+    "age": 45,
+    "bossID": null
+  }
+]

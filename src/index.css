@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.user-card {
+  padding: 1rem;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  transition: box-shadow ease 0.3s;
+}
+
+.user-card:hover {
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+}
+
+.user-card h3 {
+  margin-top: 0;
+}
+
+.user-card p {
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+.user-card span {
+  color: #999;
+}
+
+.dimmed {
+  opacity: 0.5;
+  font-style: italic;
+}
+
+form .form-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+form .input-wrapper {
+  flex-basis: 23%;
+}
+
+form .input-wrapper input,
+form .input-wrapper select {
+  width: 100%;
+  border-radius: 0px;
+  border-width: 0 0 2px 0;
+  border-color: black;
+  transition: border-color ease 0.3s;
+}
+
+form .input-wrapper input:focus,
+form .input-wrapper select:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+
+form .input-wrapper label {
+  display: block;
+  padding-bottom: 0.4rem;
+  font-weight: bold;
+}
+
+form .button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  transition: all ease 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.4);
+}
