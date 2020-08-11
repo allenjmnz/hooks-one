@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="stylesheet" href="index.css">
+    <title>React App</title>
+  </head>
+  <body>
+    
+    <!-- Everything below here must go inside React Components -->
+    <div class="app">
+      <h1>PSL Family</h1>
+      <div class="user-card">
+        <h3>Allen - <span class="age">25</span></h3>
+        <p>Multimedia Web Integrator</p>
+        <p>Direct Boss - Noé</p>
+      </div>
+      <div class="user-card">
+        <h3>Diane - <span class="age">27</span></h3>
+        <p>Director of Operations</p>
+        <p class="dimmed">Doesn't have a direct boss</p>
+      </div>
+      <h2>Register new user</h2>
+      <form>
+        <div class="form-wrapper">
+          <div class="input-wrapper">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" autocomplete="off" required />
+          </div>
+  
+          <div class="input-wrapper">
+            <label for="jobTitle">Job Title</label>
+            <input type="text" name="jobTitle" id="jobTitle" autocomplete="off" required />
+          </div>
+  
+          <div class="input-wrapper">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" required />
+          </div>
+  
+          <div class="input-wrapper">
+            <label for="bossID">Direct Boss</label>
+            <select name="bossID" id="bossID" value={newUser.bossID} onChange={onChange}>
+              <option value="None">Has no direct boss</option>
+              <option value="1">Allen</option>
+              <option value="2">Noé</option>
+            </select>
+          </div>
+        </div>
+        
+        <div class="button-wrapper">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- Everything above here must go inside React Components -->
+    
+  </body>
+</html>

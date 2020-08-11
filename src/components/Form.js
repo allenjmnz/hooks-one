@@ -1,77 +1,21 @@
 import React from 'react'
+
+// Remember to add Prop Types below the component and above the export default
 import PropTypes from 'prop-types'
 
-function Form({ users, newUser, onChange, onSubmit }) {
+// Suggested props: 
+/*  1. Users Array 
+    2. An object representing the empty form
+    3. onChange handler
+    4. onSubmit handler */
+function Form(props) {
   return (
-    <form onSubmit={onSubmit}>
-      <div className="form-wrapper">
-        <div className="input-wrapper">
-          <label htmlFor="name">Name</label>
-          <input 
-            type="text"
-            name="name"
-            id="name"
-            value={newUser.name}
-            onChange={onChange}
-            autoComplete="off"
-            required
-          />
-        </div>
-
-        <div className="input-wrapper">
-          <label htmlFor="jobTitle">Job Title</label>
-          <input
-            type="text"
-            name="jobTitle"
-            id="jobTitle"
-            value={newUser.jobTitle}
-            onChange={onChange}
-            autoComplete="off"
-            required
-          />
-        </div>
-
-        <div className="input-wrapper">
-          <label htmlFor="age">Age</label>
-          <input
-            type="number"
-            name="age"
-            id="age"
-            value={newUser.age}
-            onChange={onChange}
-            required
-          />
-        </div>
-
-        <div className="input-wrapper">
-          <label htmlFor="bossID">Direct Boss</label>
-          <select name="bossID" id="bossID" value={newUser.bossID} onChange={onChange}>
-            <option value="None">Has no direct boss</option>
-            {users.map((user) => (
-              <option value={user.id} key={user.id}>{user.name}</option>
-            ))}
-          </select>
-        </div>
-      </div>
-      
-      <div className="button-wrapper">
-        <button type="submit">Submit</button>
-      </div>
+    <form>
+      {/* Here you need to add two input[type="text"], one input[type="number"], one <select> element and a submit button */}
+      {/* Inside the select element you need to have a default option with value "None" and display "Has no direct boss" */}
+      {/* The <option> tags must have a "value" attribute of user.id and display user.name */}
     </form>
   );
-}
-
-Form.propTypes = {
-  users: PropTypes.array,
-  onChange: PropTypes.func.isRequired,
-  onSubmit: PropTypes.func.isRequired,
-
-  newUser: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    jobTitle: PropTypes.string.isRequired,
-    age: PropTypes.string.isRequired,
-    bossID: PropTypes.string.isRequired
-  })
 }
 
 export default Form
