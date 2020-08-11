@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 function Form({ users, newUser, onChange, onSubmit }) {
   return (
@@ -52,11 +53,25 @@ function Form({ users, newUser, onChange, onSubmit }) {
           </select>
         </div>
       </div>
+      
       <div className="button-wrapper">
         <button type="submit">Submit</button>
       </div>
     </form>
   );
+}
+
+Form.propTypes = {
+  users: PropTypes.array,
+  onChange: PropTypes.func.isRequired,
+  onSubmit: PropTypes.func.isRequired,
+
+  newUser: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    jobTitle: PropTypes.string.isRequired,
+    age: PropTypes.string.isRequired,
+    bossID: PropTypes.string.isRequired
+  })
 }
 
 export default Form
