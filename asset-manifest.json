@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-class-project-1/static/css/main.24479a87.chunk.css",
-    "main.js": "/react-class-project-1/static/js/main.a0ba9def.chunk.js",
-    "main.js.map": "/react-class-project-1/static/js/main.a0ba9def.chunk.js.map",
-    "runtime-main.js": "/react-class-project-1/static/js/runtime-main.7f7b3bd6.js",
-    "runtime-main.js.map": "/react-class-project-1/static/js/runtime-main.7f7b3bd6.js.map",
-    "static/js/2.2181120d.chunk.js": "/react-class-project-1/static/js/2.2181120d.chunk.js",
-    "static/js/2.2181120d.chunk.js.map": "/react-class-project-1/static/js/2.2181120d.chunk.js.map",
-    "index.html": "/react-class-project-1/index.html",
-    "precache-manifest.7837d0b004f7856b9e7f5081c899a551.js": "/react-class-project-1/precache-manifest.7837d0b004f7856b9e7f5081c899a551.js",
-    "service-worker.js": "/react-class-project-1/service-worker.js",
-    "static/css/main.24479a87.chunk.css.map": "/react-class-project-1/static/css/main.24479a87.chunk.css.map",
-    "static/js/2.2181120d.chunk.js.LICENSE.txt": "/react-class-project-1/static/js/2.2181120d.chunk.js.LICENSE.txt"
+    "main.css": "/hooks-one/static/css/main.24479a87.chunk.css",
+    "main.js": "/hooks-one/static/js/main.a0ba9def.chunk.js",
+    "main.js.map": "/hooks-one/static/js/main.a0ba9def.chunk.js.map",
+    "runtime-main.js": "/hooks-one/static/js/runtime-main.1500c708.js",
+    "runtime-main.js.map": "/hooks-one/static/js/runtime-main.1500c708.js.map",
+    "static/js/2.2181120d.chunk.js": "/hooks-one/static/js/2.2181120d.chunk.js",
+    "static/js/2.2181120d.chunk.js.map": "/hooks-one/static/js/2.2181120d.chunk.js.map",
+    "index.html": "/hooks-one/index.html",
+    "precache-manifest.ceeba395011a6c3d5c2de33a06ed2885.js": "/hooks-one/precache-manifest.ceeba395011a6c3d5c2de33a06ed2885.js",
+    "service-worker.js": "/hooks-one/service-worker.js",
+    "static/css/main.24479a87.chunk.css.map": "/hooks-one/static/css/main.24479a87.chunk.css.map",
+    "static/js/2.2181120d.chunk.js.LICENSE.txt": "/hooks-one/static/js/2.2181120d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f7b3bd6.js",
+    "static/js/runtime-main.1500c708.js",
     "static/js/2.2181120d.chunk.js",
     "static/css/main.24479a87.chunk.css",
     "static/js/main.a0ba9def.chunk.js"
